@@ -75,3 +75,55 @@
     padding: 4px;
     border-radius: 2px;
 }
+
+.channel-picture {
+    position: relative;
+}
+
+.channel-tooltip {
+    position: absolute;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    align-items: center;
+    line-height: 1.5;
+    margin-top: 15px;
+    pointer-events: none;
+    padding: 12px 22px;
+    border: none;
+    opacity: 0;
+    border-radius: 8px;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.14);
+    transition: opacity 0.40s;
+}
+
+.channel-picture:hover .channel-tooltip {
+    opacity: 1;
+}
+
+.channel-tooltip img {
+    width: 60px;
+    position: relative;
+}
+
+.channel-info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-bottom: 6px;
+}
+
+.channel-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.channel-stats {
+    font-size: 15px;
+    color: rgb(96, 96, 96);
+}
+
+a:-webkit-any-link .channel-tooltip {
+    color: black;
+}

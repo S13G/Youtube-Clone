@@ -1,32 +1,79 @@
-.sidebar {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    top: 55px;
-    background-color: white;
-    width: 72px;
-    z-index: 200;
-    padding-top: 5px;
+@media (max-width: 1200px) {
+    .sidebar {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        top: 55px;
+        background-color: white;
+        width: 72px;
+        z-index: 200;
+        padding-top: 5px;
+    }
+
+    .sidebar-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 74px;
+        cursor: pointer;
+    }
+
+    .sidebar-link:hover {
+        background-color: rgb(235, 235, 235);
+    }
+
+    .sidebar img {
+        height: 26px;
+        margin-bottom: 6px;
+    }
+
+    .sidebar div {
+        font-size: 10px;
+    }
 }
 
-.sidebar-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 74px;
-    cursor: pointer;
-}
+@media (min-width: 1201px) {
+    .sidebar {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        top: 55px;
+        background-color: white;
+        width: 220px;
+        z-index: 200;
+        padding-top: 15px;
+    }
 
-.sidebar-link:hover {
-    background-color: rgb(235, 235, 235);
-}
+    .sidebar-link {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        margin-left: 20px;
+        height: 60px;
+        cursor: pointer;
+    }
 
-.sidebar img {
-    height: 26px;
-    margin-bottom: 6px;
-}
+    .sidebar-link div {
+        padding-bottom: 6px;
+    }
 
-.sidebar div {
-    font-size: 10px;
+    .sidebar-link:hover {
+        background-color: rgb(235, 235, 235);
+    }
+
+    .sidebar img {
+        height: 26px;
+        margin-bottom: 6px;
+    }
+
+    .sidebar div {
+        font-size: 14px;
+        font-weight: 550;
+        margin-left: 25px;
+    }
+
+    body {
+        padding: 80px 25px 200px 245px;
+    }
 }
