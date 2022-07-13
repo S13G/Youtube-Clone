@@ -1,4 +1,11 @@
-@media (max-width: 1200px) {
+@media(max-width: 720px) {
+    .sidebar {
+        display: none;
+        width: 0;
+    }
+}
+
+@media (min-width: 721px) and (max-width: 1200px) {
     .sidebar {
         position: fixed;
         left: 0;
