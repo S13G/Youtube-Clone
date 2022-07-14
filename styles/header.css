@@ -53,7 +53,7 @@
 @media (max-width: 720px) {
     .search-bar {
         flex: 1;
-        width: 90px;
+        width: 95px;
         height: 30px;
     }
 
@@ -88,7 +88,6 @@
         flex: 1;
         justify-content: space-between !important;
         column-gap: 12px;
-        padding-right: 2px;
     }
 
     .right-section .youtube-apps-icon-container {
