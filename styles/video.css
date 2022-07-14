@@ -54,6 +54,10 @@
     .video-info-grid {
         padding: 0 10px;
     }
+
+    .channel-tooltip, .channel-stats, .channel-info, .channel-title, .channel-picture {
+        display: none !important;
+    }
 }
 
 @media (min-width: 721px) and (max-width: 830px) {

@@ -88,7 +88,7 @@
         flex: 1;
         justify-content: space-between !important;
         column-gap: 12px;
-        padding-right: 3px;
+        margin-right: 5px;
     }
 
     .right-section .youtube-apps-icon-container {
