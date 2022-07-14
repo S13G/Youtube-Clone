@@ -50,6 +50,10 @@
     .thumbnail-row {
         margin-bottom: 6px;
     }
+
+    .video-info-grid {
+        padding: 0 10px;
+    }
 }
 
 @media (min-width: 721px) and (max-width: 830px) {
