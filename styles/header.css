@@ -53,11 +53,17 @@
 @media (max-width: 720px) {
     .search-bar {
         flex: 1;
-        width: 40px;
+        width: 90px;
+        height: 30px;
     }
 
     .search-button {
         width: 40px !important;
+        height: 34px !important;
+    }
+
+    .search-icon {
+        height: 22px !important;
     }
 
     .search-bar::placeholder {
@@ -69,7 +75,7 @@
     }
 
     .left-section .youtube {
-        padding-left: 20px;
+        padding-left: 10px;
     }
 
     .voice-search-button {
@@ -84,9 +90,13 @@
         column-gap: 12px;
     }
 
+    .right-section .youtube-apps-icon-container {
+        display: none;
+    }
+
     .middle-section {
         margin-left: 10px;
-        margin-right: 0px;
+        margin-right: 0;
     }
 
     .search-bar::placeholder {
