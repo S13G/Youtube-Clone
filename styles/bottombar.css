@@ -29,7 +29,11 @@
     }
 
     .bottombar-link img {
-        height: 37px;
+        height: 30px;
+    }
+
+    .bottombar-link p {
+        font-size: 12px;
     }
 
     .bottombar-link div {
@@ -65,7 +69,7 @@
     }
 
     .bottombar-link img {
-        height: 40px;
+        height: 34px;
     }
 
     .bottombar-link p {
