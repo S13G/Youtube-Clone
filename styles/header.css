@@ -53,7 +53,7 @@
 @media (max-width: 721px) {
     .search-bar {
         flex: 1;
-        width: 90px;
+        width: 93px;
         height: 30px;
     }
 
@@ -87,7 +87,7 @@
         flex-direction: row;
         flex: 1;
         justify-content: space-between !important;
-        margin-right: 5px !important;
+        margin-right: 1px !important;
 
     }
 
