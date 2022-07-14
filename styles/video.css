@@ -4,10 +4,10 @@
 
 .video-title {
     margin-top: 0;
-    font-size: 14px;
+    font-size: 14px !important;
     font-weight: 500;
-    line-height: 20px;
-    margin-bottom: 7px;
+    line-height: 18px !important;
+    margin-bottom: 4px;
 }
 
 .video-info-grid {
