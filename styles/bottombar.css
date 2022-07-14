@@ -54,7 +54,6 @@
         align-items: start;
         flex-direction: row;
         height: 60px;
-        cursor: pointer;
         flex: 1;
         margin-top: 8px;
     }
